@@ -1,0 +1,60 @@
+name: madlineindia
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  carousel_slider: ^4.1.1
+  cloud_firestore: ^3.4.3
+  firebase_core: ^1.20.0
+  flutter:
+    sdk: flutter
+  lottie: ^1.4.1
+  flutter_markdown: ^0.6.10+3
+  flutter_svg: ^1.1.3
+  google_fonts: ^3.0.1
+  ico: ^0.0.3
+  intl: ^0.17.0
+  provider: ^6.0.3
+  uuid: ^3.0.6
+
+  # cached_image:  
+  #   git:
+  #     url: https://github.com/rahulsharmadev-community/cached_image.git
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/logo/
+    - assets/svg/
+    - assets/lottie/
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
